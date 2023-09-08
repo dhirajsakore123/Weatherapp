@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import '../css/weather.css'
+import search from '../logo/search1.png'
 
 
 const ApiCall = () => {
@@ -36,8 +37,10 @@ const ApiCall = () => {
     <div className='bigBox'>
      
         <div className='serachbox'>
+          <div className='search'>
         <input type='text' onChange={handelChange} value={city}/>
-        <button  onClick={()=>setCity(inp)}>Search</button>
+        <span onClick={()=>setCity(inp)} className='searchbutton'><img src={search} alt='not found' className='icon'/></span>
+        </div>
         </div>
         <div className='flexbox'>
         <div className='rightbox'>

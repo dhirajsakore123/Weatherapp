@@ -11,34 +11,61 @@ body{
   
  
 }
+.search{
+  
+    width: 20%;
+    height: 5vh;
+    position: relative;
+  border-radius: 30px;
 
+}
 input[type=text]{
-   height: 4vh;
-   width: 15vw;
-   border-radius:3px;
+    position: absolute;
+  height: 100%;
+   width: 98%;
+   border-radius: 30px;
+  
    border-color: rgb(252, 251, 251);
    text-align: center;
    font-size: 15px;
    font-style: italic;
+  
 }
-input[type=text]:active{
-    border-color:none;
+input[type=text]:focus{
+   outline:none;
     
 }
-button{
+.searchbutton{
+    border-radius: 30px;
+    position: absolute;
+    right: 0.5vw;
+ 
     height: 4.5vh;  
-    border-radius:3px;
-    border-color: rgb(252, 251, 251);
+  /* background-color: white; */
+  
+
 }
 
+
 .serachbox{
-    /* border: 2px solid red; */
+    
     height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 10px;
 }
+.icon{
+   position:relative;
+   top: 5px;
+
+    width: 2vw;
+    border-radius: 30px;
+}
+.icon:hover{
+    width: 2.2vw;  
+}
+
 .flexbox{
     display: flex;
 }
