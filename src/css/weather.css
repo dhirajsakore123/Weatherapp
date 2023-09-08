@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bigBox{
+    background-image: url(../logo/image-6RBcBxXYz-transformed.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: rgb(222, 236, 236);
+  
+ 
+}
+
+input[type=text]{
+   height: 4vh;
+   width: 15vw;
+   border-radius:3px;
+   border-color: rgb(252, 251, 251);
+   text-align: center;
+   font-size: 15px;
+   font-style: italic;
+}
+input[type=text]:active{
+    border-color:none;
+    
+}
+button{
+    height: 4.5vh;  
+    border-radius:3px;
+    border-color: rgb(252, 251, 251);
+}
+
+.serachbox{
+    /* border: 2px solid red; */
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.flexbox{
+    display: flex;
+}
+.rightbox{
+    /* border: 2px solid red; */
+   width: 40vw;
+  
+}
+.tempbox{
+    color: rgb(232, 236, 241);
+    /* border: 2px solid red; */
+    width: 20vw;
+    position: relative;
+    left: 5vw;
+    text-align: center;
+    line-height: 3vh;
+
+}
+.temp{
+    font-size: 50px;
+     
+}
+.city{
+    position: relative;
+    left: 5vw;
+    width: 20vw;
+    color: white;
+    /* border: 2px solid rgb(23, 22, 22); */
+}
+.span{
+    font-size: 40px;
+}
+.leftbox{
+    width: 55%;
+    background-color: rgba(255, 255, 255, 0.258);
+    border-radius: 15px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.box{
+    /* border: 2px solid blue; */
+    width:32% ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.box p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(12, 11, 11);
+}
+.box:hover{
+    box-shadow: 0px 0px 9px #b7afaf;
+}
+.weather{
+   font-size: 30px; 
+}
